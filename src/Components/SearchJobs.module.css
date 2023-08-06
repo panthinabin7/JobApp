@@ -1,0 +1,49 @@
+.job-search-container {
+  display: flex;
+  width: 100%;
+  gap: 100px;
+  margin-top: 15px;
+  padding: 10px;
+  box-shadow: 11px 11px 27px -11px rgba(0, 0, 0, 0.05);
+  -webkit-box-shadow: 11px 11px 27px -11px rgba(0, 0, 0, 0.05);
+  -moz-box-shadow: 11px 11px 27px -11px rgba(0, 0, 0, 0.05);
+}
+
+.job-search-container h3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 18%;
+}
+
+.span {
+  color: #dfd7bf;
+  padding-left: 10px;
+  font-weight: 500;
+}
+
+form {
+  padding: 10px;
+  display: flex;
+}
+input {
+  width: 500px;
+  height: 40px;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
+
+.icon {
+  background-color: blue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 70px;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+.job-search-container .icon svg {
+  color: black;
+  font-size: 30px;
+}

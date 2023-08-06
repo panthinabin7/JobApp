@@ -1,2 +1,51 @@
 .nav-container {
+  margin: 0;
+  display: flex;
+  justify-content: space-evenly;
+  box-shadow: 11px 11px 27px -11px rgba(0, 0, 0, 0.05);
+  -webkit-box-shadow: 11px 11px 27px -11px rgba(0, 0, 0, 0.05);
+  -moz-box-shadow: 11px 11px 27px -11px rgba(0, 0, 0, 0.05);
+  background-color: white;
+}
+.logo {
+  display: flex;
+  width: 30%;
+}
+.logo h3 {
+  cursor: pointer;
+}
+img {
+  padding-top: 5px;
+  cursor: pointer;
+}
+li {
+  cursor: pointer;
+}
+
+.nav-bar {
+  height: 40px;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+
+  list-style: none;
+}
+
+.nav li {
+  gap: 10px;
+}
+.info {
+  width: 50%;
+}
+.infoUl {
+  display: flex;
+  list-style: none;
+  justify-content: space-evenly;
+  padding-right: 10px;
 }

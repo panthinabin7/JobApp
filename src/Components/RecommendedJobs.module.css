@@ -1,0 +1,81 @@
+.job-container {
+  display: flex;
+  flex-direction: column;
+
+  padding: 10px;
+  margin-top: 10px;
+  box-shadow: 11px 11px 27px -11px rgba(0, 0, 0, 0.05);
+  -webkit-box-shadow: 11px 11px 27px -11px rgba(0, 0, 0, 0.05);
+  -moz-box-shadow: 11px 11px 27px -11px rgba(0, 0, 0, 0.05);
+}
+.upper {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+ul {
+  list-style: none;
+  margin-left: -30px;
+}
+.card-container {
+  display: flex;
+  gap: 30px;
+  padding: auto 30px;
+}
+.details {
+  border-radius: 5px;
+  width: 300px;
+  height: 200px;
+  padding-bottom: 30px;
+  margin-bottom: 50px;
+  margin-left: 30px;
+  box-shadow: 0px 0px 34px -8px rgba(0, 0, 0, 0.82);
+  -webkit-box-shadow: 0px 0px 34px -8px rgba(0, 0, 0, 0.82);
+  -moz-box-shadow: 0px 0px 34px -8px rgba(0, 0, 0, 0.82);
+}
+.date {
+  display: flex;
+  flex-direction: row-reverse;
+  padding-right: 10px;
+  font-size: 12px;
+  font-weight: 400;
+  color: grey;
+}
+
+.job {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.title {
+  font-weight: 700;
+}
+.experience ul {
+  display: flex;
+  gap: 55px;
+}
+
+.experience ul li {
+  color: grey;
+  font-weight: 500;
+  align-items: center;
+  font-size: 14px;
+}
+
+.experience ul li svg {
+  font-size: 8px;
+  padding-right: 5px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 10px;
+}
+
+.button-container button {
+  height: 30px;
+  width: 100px;
+  border-radius: 5px;
+  cursor: pointer;
+}
