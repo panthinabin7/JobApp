@@ -31,7 +31,7 @@ li {
 
 .nav {
   display: flex;
-  justify-content: space-evenly;
+  gap: 50px;
   width: 100%;
 
   list-style: none;

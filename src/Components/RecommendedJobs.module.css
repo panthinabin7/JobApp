@@ -1,16 +1,24 @@
 .job-container {
   display: flex;
   flex-direction: column;
+  height: 100%;
+  background-color: #f6f1f1;
+  margin: 20px 15px;
+  border-radius: 10px;
 
   padding: 10px;
-  margin-top: 10px;
-  box-shadow: 11px 11px 27px -11px rgba(0, 0, 0, 0.05);
-  -webkit-box-shadow: 11px 11px 27px -11px rgba(0, 0, 0, 0.05);
-  -moz-box-shadow: 11px 11px 27px -11px rgba(0, 0, 0, 0.05);
+  box-shadow: 11px 11px 27px -11px rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 11px 11px 27px -11px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 11px 11px 27px -11px rgba(0, 0, 0, 0.5);
 }
+
 .upper {
   display: flex;
-  gap: 30px;
+  gap: 70%;
+  align-items: center;
+}
+.upper p {
+  display: flex;
   align-items: center;
 }
 ul {
@@ -19,20 +27,16 @@ ul {
 }
 .card-container {
   display: flex;
+  overflow-x: auto;
   gap: 30px;
-  padding: auto 30px;
+  padding: 10px;
+  padding-left: 10;
+  background-color: #afd3e2;
 }
-.details {
-  border-radius: 5px;
-  width: 300px;
-  height: 200px;
-  padding-bottom: 30px;
-  margin-bottom: 50px;
-  margin-left: 30px;
-  box-shadow: 0px 0px 34px -8px rgba(0, 0, 0, 0.82);
-  -webkit-box-shadow: 0px 0px 34px -8px rgba(0, 0, 0, 0.82);
-  -moz-box-shadow: 0px 0px 34px -8px rgba(0, 0, 0, 0.82);
+.card-container::-webkit-scrollbar {
+  display: none;
 }
+
 .date {
   display: flex;
   flex-direction: row-reverse;

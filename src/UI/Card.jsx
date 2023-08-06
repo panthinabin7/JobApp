@@ -1,7 +1,12 @@
 import classes from "./Card.module.css";
+import PropTypes from "prop-types";
 
-const Card = () => {
-  return <div className={classes.card}>Card</div>;
+const Card = (props) => {
+  return <div className={classes.card}>{props.children}</div>;
+};
+
+Card.propTypes = {
+  children: PropTypes.node.isRequired,
 };
 
 export default Card;
