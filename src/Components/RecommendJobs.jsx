@@ -67,7 +67,7 @@ const RecommendJobs = () => {
   return (
     <div className={classes["job-container"]}>
       <div className={classes.upper}>
-        <h3>Recommended Jobs</h3>
+        <h1>Recommended Jobs</h1>
         <p>
           view all <KeyboardArrowLeftIcon />
           <KeyboardArrowRightIcon />

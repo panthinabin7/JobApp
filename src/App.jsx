@@ -1,13 +1,12 @@
-import NavBar from "./Components/NavBar";
-import RecommendJobs from "./Components/RecommendJobs";
-import SearchJobs from "./Components/SearchJobs";
+import Home from "./Pages/Home";
+import { Route, Routes } from "react-router-dom";
 
 function App() {
   return (
     <div className="app">
-      <NavBar />
-      <SearchJobs />
-      <RecommendJobs />
+      <Routes>
+        <Route path="/" element={<Home />} />
+      </Routes>
     </div>
   );
 }

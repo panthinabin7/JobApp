@@ -2,8 +2,16 @@
   display: flex;
   gap: 100px;
   padding: 10px;
-  background-color: #c4dfdf;
-  margin: 20px;
+  /* background-color: var(--third); */
+  background-color: white;
+  border: 1px solid white;
+  border-bottom-color: rgb(216, 212, 212);
+  margin-top: 70px;
+  margin-right: 15px;
+  margin-left: 15px;
+  box-shadow: 11px 11px 27px -11px rgba(0, 0, 0, 0.2);
+  -webkit-box-shadow: 11px 11px 27px -11px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 11px 11px 27px -11px rgba(0, 0, 0, 0.2);
 }
 
 .job-search-container h3 {
@@ -28,6 +36,8 @@ input {
   height: 40px;
   border-top-left-radius: 15px;
   border-bottom-left-radius: 15px;
+  padding-left: 15px;
+  font-size: 16px;
 }
 
 .icon {
