@@ -1,8 +1,7 @@
 .job-search-container {
   display: flex;
-  gap: 100px;
   padding: 10px;
-  /* background-color: var(--third); */
+  gap: 80px;
   background-color: white;
   border: 1px solid white;
   border-bottom-color: rgb(216, 212, 212);
@@ -27,11 +26,11 @@
   font-weight: 500;
 }
 
-form {
-  padding: 10px;
+.form {
   display: flex;
+  align-items: center;
 }
-input {
+.input {
   width: 500px;
   height: 40px;
   border-top-left-radius: 15px;
@@ -46,6 +45,7 @@ input {
   justify-content: center;
   align-items: center;
   width: 70px;
+  height: 45px;
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
 }

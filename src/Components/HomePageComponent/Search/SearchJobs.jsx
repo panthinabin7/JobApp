@@ -6,8 +6,13 @@ const SearchJobs = () => {
       <h3>
         Explore <span className={classes.span}>500,000+ jobs</span>
       </h3>
-      <form>
-        <input type="text" id="search" placeholder="job title, location" />
+      <form className={classes.form}>
+        <input
+          className={classes.input}
+          type="text"
+          id="search"
+          placeholder="job title, location"
+        />
         <div className={classes.icon}>
           <SearchIcon />
         </div>

@@ -1,8 +1,8 @@
-import FeatureJobs from "../Components/FeatureJobs";
-import NavBar from "../Components/NavBar";
-import PopularJobs from "../Components/PopularJobs";
-import RecommendJobs from "../Components/RecommendJobs";
-import SearchJobs from "../Components/SearchJobs";
+import FeatureJobs from "../Components/HomePageComponent/FeatureJobs/FeatureJobs";
+import NavBar from "../Components/HomePageComponent/NavBar/NavBar";
+import PopularJobs from "../Components/HomePageComponent/PopularJobs/PopularJobs";
+import RecommendJobs from "../Components/HomePageComponent/RecommendedJobs/RecommendJobs";
+import SearchJobs from "../Components/HomePageComponent/Search/SearchJobs";
 const Home = () => {
   return (
     <div>

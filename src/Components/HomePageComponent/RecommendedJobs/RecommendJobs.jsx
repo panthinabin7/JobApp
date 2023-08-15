@@ -1,67 +1,9 @@
-import Card from "../UI/Card";
+import Card from "../../../UI/Card";
 import classes from "./RecommendedJobs.module.css";
 import CircleIcon from "@mui/icons-material/Circle";
 import KeyboardArrowLeftIcon from "@mui/icons-material/KeyboardArrowLeft";
 import KeyboardArrowRightIcon from "@mui/icons-material/KeyboardArrowRight";
-
-const job = [
-  {
-    id: "1",
-    date: "jul 21, 2023",
-    title: "Front-end Developer",
-    companyName: "Google",
-    experience: "0-5 yrs",
-    city: "Dehradun",
-  },
-  {
-    id: "2",
-    date: "jul 21, 2023",
-    title: "Front-end Developer",
-    companyName: "Google",
-    experience: "0-5 yrs",
-    city: "Dehradun",
-  },
-  {
-    id: "3",
-    date: "jul 21, 2023",
-    title: "Front-end Developer",
-    companyName: "Google",
-    experience: "0-5 yrs",
-    city: "Dehradun",
-  },
-  {
-    id: "4",
-    date: "jul 21, 2023",
-    title: "Front-end Developer",
-    companyName: "Google",
-    experience: "0-5 yrs",
-    city: "Dehradun",
-  },
-  {
-    id: "5",
-    date: "jul 21, 2023",
-    title: "Front-end Developer",
-    companyName: "Google",
-    experience: "0-5 yrs",
-    city: "Dehradun",
-  },
-  {
-    id: "6",
-    date: "jul 21, 2023",
-    title: "Front-end Developer",
-    companyName: "Google",
-    experience: "0-5 yrs",
-    city: "Dehradun",
-  },
-  {
-    id: "7",
-    date: "jul 21, 2023",
-    title: "Front-end Developer",
-    companyName: "Google",
-    experience: "0-5 yrs",
-    city: "Dehradun",
-  },
-];
+import { RecJob } from "../../../Constant/const";
 
 const RecommendJobs = () => {
   return (
@@ -74,7 +16,7 @@ const RecommendJobs = () => {
         </p>
       </div>
       <div className={classes["card-container"]}>
-        {job.map((job) => (
+        {RecJob.map((job) => (
           <Card key={job.id}>
             <p className={classes.date}>{job.date}</p>
             <ul className={classes.job}>

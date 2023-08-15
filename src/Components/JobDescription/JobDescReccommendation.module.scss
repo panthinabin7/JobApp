@@ -1,0 +1,100 @@
+.jobs-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
+  padding: 50px 40px;
+}
+.jobs {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  height: 200px;
+  width: 100%;
+  border: 1px solid rgb(174, 168, 168);
+  border-radius: 10px;
+
+  svg {
+    font-size: 25px;
+    font-weight: 100;
+    color: grey;
+  }
+}
+.icon {
+  padding-right: 35px;
+}
+
+.job-detail {
+  margin-top: -10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  h3 {
+    font-size: 20px;
+  }
+}
+
+.details {
+  margin-top: -15px;
+  display: flex;
+  gap: 20px;
+  div {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    /* background-color: green; */
+    p {
+      font-size: 10px;
+    }
+  }
+}
+
+.img {
+  height: 70px;
+  width: 70px;
+  margin-left: 20px;
+  border-radius: 50%;
+}
+
+.type-container {
+  display: flex;
+  gap: 20px;
+}
+.blue {
+  padding: 3px 10px;
+  border: 1px solid grey;
+  border-radius: 10px;
+  font-size: 12px;
+  background-color: rgb(212, 212, 255);
+  color: blue;
+}
+
+.green {
+  padding: 3px 10px;
+  border: 1px solid grey;
+  border-radius: 10px;
+  font-size: 12px;
+  background-color: rgb(197, 247, 197);
+  color: green;
+}
+
+.orange {
+  padding: 3px 10px;
+  border: 1px solid grey;
+  border-radius: 10px;
+  font-size: 12px;
+  background-color: rgb(245, 220, 172);
+  color: orange;
+}
+
+button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(189, 189, 242);
+  height: 50px;
+  width: 200px;
+  border-radius: 20px;
+  border-style: none;
+  cursor: pointer;
+}

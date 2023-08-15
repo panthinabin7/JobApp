@@ -10,8 +10,6 @@
   top: 0;
   left: 0;
   right: 0;
-  margin-left: 15px;
-  margin-right: 15px;
   padding: 5px;
   /* border-radius: 10px; */
   border: 1px solid white;
@@ -50,6 +48,9 @@ li {
 
 .nav li {
   gap: 10px;
+}
+nav li Link {
+  color: blue;
 }
 .info {
   width: 50%;

@@ -1,0 +1,26 @@
+.main {
+  margin-top: 70px;
+  margin-left: 15px;
+  margin-right: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+.desc-container {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+  width: 100%;
+}
+.content-container {
+  width: 60%;
+  padding-left: 50px;
+  padding-right: 50px;
+  border-radius: 10px;
+}
+
+.overview-container {
+  // margin-left: 50px;
+  width: 500px;
+}

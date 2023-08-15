@@ -1,0 +1,36 @@
+.overview-container {
+  margin-top: 30px;
+  background-color: #f2f5f9;
+  padding-left: 50px;
+  display: flex;
+
+  flex-direction: column;
+  padding: 10px 60px;
+  border-radius: 10px;
+}
+.info {
+  display: flex;
+  justify-content: space-between;
+}
+.role {
+  padding: 10px 0;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  img {
+    border-radius: 5px;
+  }
+
+  div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    h3 {
+      margin: 0;
+    }
+    p {
+      margin: 0;
+    }
+  }
+}

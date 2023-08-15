@@ -1,0 +1,75 @@
+.filter-container {
+  background-color: #d9e8f7;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  position: sticky;
+  top: 0;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 30px;
+}
+.label {
+  font-size: 18px;
+  font-weight: 500;
+}
+.label-checkbox {
+  font-size: 17px;
+}
+
+.input-filter {
+  height: 40px;
+  width: 70%;
+  border-radius: 5px;
+  padding: 0 30px;
+  font-size: 17px;
+  margin-bottom: 25px;
+  border: 1px solid grey;
+}
+
+.individual-checkbox {
+  display: flex;
+  gap: 20px;
+  margin: 10px;
+}
+
+.select-container {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.experience {
+  height: 30px;
+  width: 150px;
+  padding: 5px 30px;
+  font-size: 15px;
+  border-radius: 10px;
+}
+
+.tag-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.tag-container div {
+  height: 40px;
+  /* width: 100px; */
+  padding: 0 20px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.input-filter::placeholder {
+  content: attr(placeholder);
+}

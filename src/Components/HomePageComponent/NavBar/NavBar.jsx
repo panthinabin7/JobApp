@@ -1,5 +1,6 @@
 import classes from "./NavBar.module.css";
-import logo from "../assets/logo.png";
+import logo from "../../../assets/logo.png";
+import { Link } from "react-router-dom";
 
 const NavBar = () => {
   return (
@@ -10,10 +11,15 @@ const NavBar = () => {
       </div>
       <div className={classes["nav-bar"]}>
         <ul className={classes.nav}>
-          <li>Name</li>
-          <li>Home</li>
-          <li>FindJobs</li>
-          <li>Jobs for you</li>
+          <li>
+            <Link to="/">Home</Link>
+          </li>
+          <li>
+            <Link to="/jobs">FindJobs</Link>
+          </li>
+          <li>
+            <Link to="/jobs">Jobs for you</Link>
+          </li>
         </ul>
       </div>
       <div className={classes.info}>
